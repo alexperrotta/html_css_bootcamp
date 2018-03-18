@@ -1,0 +1,100 @@
+/* Body */
+
+.container {
+	width: 80%;
+	margin: 0 10% 0 10%;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	color: #7E7E7E;
+	background-color: #F4F4F4;
+}
+
+
+/* Header */
+
+.logo {
+	width: 50%;
+	display: inline;
+}
+
+.logo-mark {
+	padding-top: 10px;
+	padding-right: 7px;
+}
+
+.logo span {
+	font-size: 23px;
+}
+
+.header-nav {
+	width: 50%;
+	float: right;
+	text-align: right;
+	padding-top: 24px;
+}
+
+.header-nav a {
+	color: #7E7E7E;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+.header-nav a:hover {
+	color: #3E3E3E;
+}
+
+/* Top of paragraph */
+
+.top {
+	text-align: center;
+}
+
+.top h1 {
+	font-size: 30px;
+	font-weight: 100;
+	color: black;
+	margin: 50px 10px;
+}
+
+.top button {
+	background-color: #3897C9;
+	color: white;
+	font-size: 15px;
+	padding: 5px 10px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+/* Paragraph text */
+
+.paragraph-text {
+	font-family: initial;
+	width: 700px;
+	margin: 0 auto;
+	color: #3E3E3E;
+	padding-top: 20px;
+}
+
+/* Footer */
+
+footer p {
+	text-align: center;
+	color:#AEAEAE;
+	font-size: 12px;
+}
+
+.footer-nav a {
+	color: #7E7E7E;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif; 
+}
+
+.footer-nav a:hover {
+	color: #3E3E3E;
+}
+
+
