@@ -1,7 +1,214 @@
 /* Global Styles*/
 
 body {
-	margin: 0px;
-	padding: 0px;
-	font-family: Arial, sans-serif;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
 }
+
+
+/* Header */
+
+.navbar {
+	float: right;
+	margin-top: 30px;
+	margin-right: 300px;
+}
+
+.navbar a {
+	color: #FFFFFF;
+	margin-right: 10px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.navbar a:hover {
+	color: #38DAED;
+}
+
+/* Main */
+
+.dc_main {
+	background-image: url('../img/atl.png');
+	background-position: center;
+	height: 400px;
+	background-color: #cccccc;
+	color: #FFF;
+}
+
+.box {
+	width: 500px;
+	text-align: center;
+	margin: auto;
+	padding-top: 100px;
+}
+
+.dc_main img {
+	display: block;
+	margin: auto;
+	width: 120px;
+	height: auto;
+}
+
+
+.dc_main h1 {
+	font-size: 47px;
+	font-weight: 200;
+}
+
+.dc_main p {
+	margin-top: 20px;
+	margin-bottom: 70px;
+	font-weight: 100;
+} 
+
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.arrow_down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+
+
+
+.middle_heading {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 200;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+
+/* Three about divs */
+
+.about {
+	float: left;
+	padding: 10px;
+	width: 30%;
+	margin: auto;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	position: relative;
+}
+
+.about_heading {
+	text-align: center;
+	font-weight: 200;
+	font-size: 35px;
+}
+
+
+/* Circles */
+
+ .circle_orange {
+  height: 150px;
+  width: 150px;
+  border: 10px solid #ff9933;
+  background-color: #FFF;
+  border-radius: 50%;
+  display: inline-block;
+} 
+
+
+.circle_green {
+  height: 150px;
+  width: 150px;
+  border: 10px solid #009900;
+  background-color: #FFF;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+} 
+
+.circle_blue {
+  height: 150px;
+  width: 150px;
+  border: 10px solid #0066ff;
+  background-color: #FFF;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+
+/* Symbols */
+
+ .at_symbol {
+  	position: absolute;
+  	width: 100%;     
+  	margin-top: -161px;
+  	margin-left: -13px;
+  	font-size: 130px;
+} 
+
+ .hash_symbol {
+  	position: absolute;
+  	width: 100%;     
+  	margin-top: -161px;
+  	margin-left: -13px;
+  	font-size: 130px;
+} 
+
+ .dollar_symbol {
+  	position: absolute;
+  	width: 100%;     
+  	margin-top: -164px;
+  	margin-left: -11px;
+  	font-size: 130px;
+} 
+
+
+/* Footer */
+
+footer {
+	clear: left;
+	background-color: grey;
+	padding: 20px;
+	text-align: center;
+}
+
+.bottom-bar a {
+	color: #FFFFFF;
+	margin-left: 30px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.bottom-bar a:hover {
+	color: #3E3E3E;
+}
+
+footer p {
+	color: #FFFFFF;
+	font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
